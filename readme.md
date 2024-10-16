@@ -6,7 +6,7 @@
 
 ```sh
 docker pull youpengl/fedcap:acsac2024
-docker run -it youpeng/fedcap:acsac2024
+docker run -it youpengl/fedcap:acsac2024
 ./experiments/Figure7.sh
 ...
 ```
