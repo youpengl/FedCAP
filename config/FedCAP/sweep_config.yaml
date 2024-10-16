@@ -1,0 +1,76 @@
+method: grid
+metric: 
+  name: p_test_acc
+  goal: maximize
+parameters:
+  mode:
+    value: "sweep_wandb"
+  device:
+    value: "cuda"
+  device_id:
+    value: 0
+  seed:
+    value: 0
+  project:
+    value: "FedCAP"
+  tag:
+    value: ""
+  run_id:
+    value: 0
+  dataset: 
+    value: "cifar10"
+  partition: 
+    value: "pat"
+  data_path:
+    value: "dataset/processed/cifar10"
+  algorithm: 
+    value: "FedCAP"
+  aggregation:
+    value: "mean"
+  attack_type: 
+    value: "A4"
+  attack_ratio: 
+    value: 0.3
+  num_classes: 
+    value: 10
+  batch_size: 
+    value: 10
+  local_learning_rate: 
+    value: 0.01
+  learning_rate_decay: 
+    value: False
+  learning_rate_decay_gamma: 
+    value: 0.99
+  global_rounds: 
+    value: 100
+  local_steps: 
+    value: 5
+  join_ratio: 
+    value: 1
+  num_clients: 
+    value: 20
+  eval_gap: 
+    value: 1
+  detailed_info: 
+    value: False
+  gas:
+    value: False
+  gas_p:
+    value: 1000
+  bucket:
+    value: False
+  bucket_s:
+    value: 2
+  O:
+    value: 10
+  normT:
+    value: 10
+  alpha_name: 
+    value: ""
+  alpha: 
+    values: [10, 5, 2]
+  phi: 
+    values: [0.3, 0.2, 0.1]
+  lamda:
+    values: [0.1, 0.5, 1]
+
