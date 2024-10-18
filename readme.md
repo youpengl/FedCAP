@@ -2,9 +2,9 @@
 
 **Abstract:** This is the artifact for the paper "FedCAP: Robust Federated Learning via Customized Aggregation and Personalization", which has been accepted by ACSAC '24. This repository contains configuration guidelines, code, and data (link). The code is used to reproduce all the results in the experimental section of the paper. All experiments were conducted on Ubuntu 22.04 with an NVIDIA RTX A6000 GPU, and the runtime for each Python script is approximately 30 minutes to 1 hour.
 
-**[10/01/2024] News: To simplify the environment setup process, we have made the Docker image public. You can complete the environment setup and run experiments with just three lines of commands.**
+**News**
 
-**[10/17/2024] News: The paper has been released on arXiv [https://arxiv.org/abs/2410.13083](https://arxiv.org/abs/2410.13083).**
+**[10/01/2024] To simplify the environment setup process, we have made the Docker image public. You can complete the environment setup and run experiments with just three lines of commands.**
 
 ```sh
 docker pull youpengl/fedcap:acsac2024
@@ -12,6 +12,8 @@ docker run -it youpengl/fedcap:acsac2024
 ./experiments/Figure7.sh
 ...
 ```
+
+**[10/17/2024] The paper has been released on arXiv [https://arxiv.org/abs/2410.13083](https://arxiv.org/abs/2410.13083).**
 
 ## 5-Steps Instruction
 
