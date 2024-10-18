@@ -4,6 +4,8 @@
 
 **[01/10/2024] News: To simplify the environment setup process, we have made the Docker image public. You can complete the environment setup and run experiments with just three lines of commands.**
 
+**[17/10/2024] News: The paper has been released on arXiv [https://arxiv.org/abs/2410.13083](https://arxiv.org/abs/2410.13083).**
+
 ```sh
 docker pull youpengl/fedcap:acsac2024
 docker run -it youpengl/fedcap:acsac2024
@@ -124,3 +126,15 @@ FedCAP/
 └──     └ tools.py -> Functions for calculation
 ```
 
+## Citation
+```
+@misc{li2024fedcaprobustfederatedlearning,
+      title={FedCAP: Robust Federated Learning via Customized Aggregation and Personalization}, 
+      author={Youpeng Li and Xinda Wang and Fuxun Yu and Lichao Sun and Wenbin Zhang and Xuyu Wang},
+      year={2024},
+      eprint={2410.13083},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2410.13083}, 
+}
+```
