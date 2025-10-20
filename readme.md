@@ -130,13 +130,23 @@ FedCAP/
 
 ## Citation
 ```
-@misc{li2024fedcaprobustfederatedlearning,
-      title={FedCAP: Robust Federated Learning via Customized Aggregation and Personalization}, 
-      author={Youpeng Li and Xinda Wang and Fuxun Yu and Lichao Sun and Wenbin Zhang and Xuyu Wang},
-      year={2024},
-      eprint={2410.13083},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2410.13083}, 
+@inproceedings{DBLP:conf/acsac/Li0Y00W24,
+  author       = {Youpeng Li and
+                  Xinda Wang and
+                  Fuxun Yu and
+                  Lichao Sun and
+                  Wenbin Zhang and
+                  Xuyu Wang},
+  title        = {FedCAP: Robust Federated Learning via Customized Aggregation and Personalization},
+  booktitle    = {Annual Computer Security Applications Conference, {ACSAC} 2024, Honolulu,
+                  HI, USA, December 9-13, 2024},
+  pages        = {747--760},
+  publisher    = {{IEEE}},
+  year         = {2024},
+  url          = {https://doi.org/10.1109/ACSAC63791.2024.00067},
+  doi          = {10.1109/ACSAC63791.2024.00067},
+  timestamp    = {Sat, 06 Sep 2025 20:30:24 +0200},
+  biburl       = {https://dblp.org/rec/conf/acsac/Li0Y00W24.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
